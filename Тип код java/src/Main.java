@@ -39,6 +39,11 @@ public class Main {
         };
         TimerTask task7 = new TimerTask() {
             public void run() {
+                System.out.println("РЕАЛ ПОКА БУХАХАХХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХ");
+            }
+        };
+        TimerTask task8 = new TimerTask() {
+            public void run() {
                 System.exit(0);
             }
         };
@@ -49,5 +54,6 @@ public class Main {
         timer.schedule(task5, 10000);
         timer.schedule(task6, 12000);
         timer.schedule(task7, 15000);
+        timer.schedule(task8, 17000);
     }
 }
